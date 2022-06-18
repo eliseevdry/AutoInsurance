@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f69145a1-6100-4a1c-939f-4d5edd37b86c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/eliseev/autoinsurance/model/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/eliseev/autoinsurance/repository/DriverRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/autoinsurance_project.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/springContext.xml" afterDir="false" />
+    <list default="true" id="f69145a1-6100-4a1c-939f-4d5edd37b86c" name="Changes" comment="version 1.0 basic settings">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/autoinsurance_project.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/autoinsurance_project.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -37,14 +33,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Java/IDEA_project/AutoInsurance/src/main/resources"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Java/IDEA_project/AutoInsurance/src/main/resources&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Java\IDEA_project\AutoInsurance\src\main\resources" />
@@ -58,8 +54,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1655575134503</updated>
-      <workItem from="1655575136916" duration="1126000" />
+      <workItem from="1655575136916" duration="8884000" />
     </task>
+    <task id="LOCAL-00001" summary="version 1.0 basic settings">
+      <created>1655577304011</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1655577304011</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -75,5 +79,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="version 1.0 basic settings" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 1.0 basic settings" />
   </component>
 </project>
