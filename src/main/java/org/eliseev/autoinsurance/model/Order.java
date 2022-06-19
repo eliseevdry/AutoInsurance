@@ -5,6 +5,7 @@ import org.eliseev.autoinsurance.model.sub.Vehicle;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;
+import java.util.List;
 
 @Entity
 @Table(name = "auto_insurance_order")
@@ -59,6 +60,10 @@ public class Order {
     })
     private Owner owner;
 
+    @OneToMany(cascade = {CascadeType.REFRESH, CascadeType.REMOVE}, fetch = FetchType.LAZY, mappedBy = "order")
+    private List<OrderDriver> driverList;
+
+
     public Long getOrderId() {
         return orderId;
     }
@@ -97,5 +102,13 @@ public class Order {
 
     public void setOwner(Owner owner) {
         this.owner = owner;
+    }
+
+    public List<OrderDriver> getDriverList() {
+        return driverList;
+    }
+
+    public void setDriverList(List<OrderDriver> driverList) {
+        this.driverList = driverList;
     }
 }

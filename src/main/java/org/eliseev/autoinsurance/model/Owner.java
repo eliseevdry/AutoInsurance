@@ -21,6 +21,7 @@ public class Owner extends Person {
     @ManyToOne(cascade = CascadeType.REFRESH, fetch = FetchType.EAGER)
     private PassportOffice passportOffice;
 
+
     public String geteMail() {
         return eMail;
     }

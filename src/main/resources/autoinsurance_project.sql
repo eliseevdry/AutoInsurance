@@ -75,7 +75,7 @@ CREATE TABLE auto_insurance_order
     owner_patronymic              varchar(100),
     owner_date_of_birth           date         not null,
     owner_email                   varchar(100) not null,
-    owner_phone_num               integer      not null,
+    owner_phone_num               varchar(20) not null,
     owner_post_index              varchar(10),
     owner_street_code             integer      not null,
     owner_building                varchar(10)  not null,

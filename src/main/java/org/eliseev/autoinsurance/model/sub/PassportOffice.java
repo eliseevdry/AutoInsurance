@@ -15,6 +15,7 @@ public class PassportOffice {
     @Column(name = "p_office_name")
     private String passportOfficeName;
 
+
     public Long getPassportOfficeId() {
         return passportOfficeId;
     }

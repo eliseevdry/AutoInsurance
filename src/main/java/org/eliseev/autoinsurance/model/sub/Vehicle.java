@@ -19,6 +19,7 @@ public class Vehicle {
     private Integer busCapacity;
     private Integer truckMaxWeight;
 
+
     public String getLicencePlate() {
         return licencePlate;
     }

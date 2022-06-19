@@ -11,7 +11,7 @@ public class OrderDriver {
     private Long driverId;
     @ManyToOne(cascade = CascadeType.REFRESH, fetch = FetchType.LAZY)
     @JoinColumn(name = "auto_insurance_order_id")
-    private Order orderId;
+    private Order order;
 
     @AssociationOverrides({
             @AssociationOverride(name = "registerOffice", joinColumns = @JoinColumn(name = "driver_license_register_office_id"))
@@ -35,12 +35,12 @@ public class OrderDriver {
         this.driverId = driverId;
     }
 
-    public Order getOrderId() {
-        return orderId;
+    public Order getOrder() {
+        return order;
     }
 
-    public void setOrderId(Order orderId) {
-        this.orderId = orderId;
+    public void setOrder(Order order) {
+        this.order = order;
     }
 
     public Driver getDriver() {

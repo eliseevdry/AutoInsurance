@@ -14,6 +14,8 @@ public class Address {
     private String extension;
     private String apartment;
 
+
+
     public String getPostCode() {
         return postCode;
     }
